@@ -1,0 +1,22 @@
+{
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "keisukeyamashita-plugins",
+    "owner": {
+        "name": "KeisukeYamashita",
+        "repo": "KeisukeYamashita/claude-code"
+    },
+    "plugins": [
+        {
+            "name": "money-forward-expense",
+            "author": {
+                "name": "KeisukeYamashita"
+            },
+            "source": "./commands/money-forward",
+            "description": "Commands for Money Forward Cloud Expense tasks.",
+            "commands": [
+                "./expense-commute.md"
+            ],
+            "strict": false
+        }
+    ]
+}
