@@ -1,3 +1,0 @@
-# Yo
-
-Says Yo!
